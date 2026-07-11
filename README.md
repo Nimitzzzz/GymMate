@@ -4,6 +4,7 @@ Aplikasi manajemen gym sederhana untuk tugas Pemrograman Seluler. Dibangun denga
 
 ## Fitur
 -  Login & Register (autentikasi lokal)
+-  User Admin & User Biasa
 -  Workout Log — catat latihan (nama, set, reps, berat, tanggal, catatan) — CRUD penuh
 -  Jadwal Kelas & Booking — lihat jadwal kelas gym dan booking/batalkan booking
 -  Data Member & Membership — kelola data member (Basic/Premium/VIP) — CRUD penuh
@@ -37,13 +38,12 @@ lib/
 - Siapkan emulator Android (AVD Manager) atau HP fisik dengan USB Debugging aktif.
 
 ### 2. Buka Project
-1. Extract file zip project ini ke folder pilihanmu, misal `D:\Project\gym_app`.
+1. Extract file zip project ini ke foldermu, misal `D:\Project\gym_app`.
 2. Buka **Android Studio** → `File` → `Open` → pilih folder `gym_app`.
 3. Karena folder `android/` dan `ios/` belum ada (project ini hanya berisi source code Dart), buka **Terminal** di Android Studio (bagian bawah) lalu jalankan:
    ```bash
    flutter create .
    ```
-   Perintah ini akan men-generate folder `android/`, `ios/`, dll di dalam project **tanpa menimpa** folder `lib/` yang sudah ada.
 
 ### 3. Install Dependency
 Di terminal, jalankan:
@@ -56,9 +56,6 @@ Model (`UserModel`, `WorkoutModel`, dst) menggunakan anotasi `@HiveType` yang bu
 ```bash
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
-Tunggu sampai selesai — ini akan membuat file seperti `user_model.g.dart`, `workout_model.g.dart`, dll di folder `lib/models/`.
-
-> Jika nanti kamu mengubah model (menambah field baru), jalankan ulang perintah ini.
 
 ### 5. Jalankan Aplikasi
 - Pilih device/emulator di pojok kanan atas Android Studio.
