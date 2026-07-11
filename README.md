@@ -1,9 +1,5 @@
 # GymMate - Aplikasi Gym (Flutter)
 
-Andi Ahmad Fauzan      23.83.0970
-Muhammad Giga Afarrel  23.83.0977
-Acun Manggala Putra    23.83.0952
-
 Aplikasi manajemen gym sederhana untuk tugas Pemrograman Seluler. Dibangun dengan **Flutter** dan penyimpanan data lokal menggunakan **Hive**.
 
 ## Fitur
