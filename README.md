@@ -1,14 +1,14 @@
-# GymMate 🏋️ - Aplikasi Gym (Flutter)
+# GymMate - Aplikasi Gym (Flutter)
 
 Aplikasi manajemen gym sederhana untuk tugas Pemrograman Seluler. Dibangun dengan **Flutter** dan penyimpanan data lokal menggunakan **Hive**.
 
 ## Fitur
-- 🔐 Login & Register (autentikasi lokal)
-- 🏋️ Workout Log — catat latihan (nama, set, reps, berat, tanggal, catatan) — CRUD penuh
-- 📅 Jadwal Kelas & Booking — lihat jadwal kelas gym dan booking/batalkan booking
-- 👥 Data Member & Membership — kelola data member (Basic/Premium/VIP) — CRUD penuh
-- 👤 Profil & Logout
-- 💾 Semua data tersimpan lokal di device menggunakan Hive (tanpa internet)
+-  Login & Register (autentikasi lokal)
+-  Workout Log — catat latihan (nama, set, reps, berat, tanggal, catatan) — CRUD penuh
+-  Jadwal Kelas & Booking — lihat jadwal kelas gym dan booking/batalkan booking
+-  Data Member & Membership — kelola data member (Basic/Premium/VIP) — CRUD penuh
+-  Profil & Logout
+-  Semua data tersimpan lokal di device menggunakan Hive (tanpa internet)
 
 ## Struktur Folder
 ```
@@ -29,7 +29,7 @@ lib/
 
 ---
 
-## 🚀 Cara Menjalankan (Step by Step di Android Studio)
+## Cara Menjalankan (Step by Step di Android Studio)
 
 ### 1. Prasyarat
 - Install **Flutter SDK** (flutter.dev) dan pastikan `flutter doctor` tidak ada error besar.
